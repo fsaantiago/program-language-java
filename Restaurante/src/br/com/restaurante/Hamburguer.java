@@ -37,7 +37,7 @@ public class Hamburguer {
 		}
 		
 		public Double calculaArtesanal(Boolean artesanal){
-			if (artesanal) {
+			if (artesanal == true) {
 				return valorHamburguer + 8;
 			}
 			return valorHamburguer;
@@ -46,6 +46,8 @@ public class Hamburguer {
 		public String consultaNome() {
 			return nome;
 		}
+		
+		
 			
 }
 

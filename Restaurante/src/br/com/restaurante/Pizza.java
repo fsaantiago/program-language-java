@@ -37,8 +37,8 @@ public class Pizza {
 	}
 	
 	
-	public Double calculaBorda(Boolean borda) {
-		if (borda) {
+	public Double calculaBorda() {
+		if (borda == true) {
 			return valorPizza + 5;
 		}
 		return valorPizza;

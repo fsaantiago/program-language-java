@@ -21,7 +21,8 @@ public class Principal {
 						valorPizza=Double.parseDouble(JOptionPane.showInputDialog("Valor da pizza: "));
 						borda=Boolean.parseBoolean(JOptionPane.showInputDialog("Possui borda? "));
 						Pizza p1 = new Pizza(nome, valorPizza, borda);
-						JOptionPane.showMessageDialog(null, p1.consultaNome(), "Mensagem", JOptionPane.DEFAULT_OPTION);
+						JOptionPane.showMessageDialog(null, p1.consultaNome(), "Nome da pizza ", JOptionPane.DEFAULT_OPTION);
+						JOptionPane.showMessageDialog(null, p1.calculaBorda(), "Sua pizza ficou no valor de ", JOptionPane.DEFAULT_OPTION);
 						break;
 					
 					case 2:
@@ -30,7 +31,9 @@ public class Principal {
 						valorHamburguer=Double.parseDouble(JOptionPane.showInputDialog("Valor do hamburguer: "));
 						artesanal=Boolean.parseBoolean(JOptionPane.showInputDialog("Eh artesanal? "));
 						Hamburguer h1 = new Hamburguer(nome, valorHamburguer, artesanal);
-						JOptionPane.showMessageDialog(null, h1.consultaNome(), "Mensagem", JOptionPane.DEFAULT_OPTION);
+						JOptionPane.showMessageDialog(null, h1.consultaNome(), "Nome do Harburguer ", JOptionPane.DEFAULT_OPTION);
+						JOptionPane.showMessageDialog(null, h1.calculaArtesanal(artesanal), "Seu hamburguer ficou no valor de: ", JOptionPane.DEFAULT_OPTION);
+						
 						break;
 					
 					case 3:
