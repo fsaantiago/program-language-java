@@ -33,7 +33,6 @@ public class Principal {
 						Hamburguer h1 = new Hamburguer(nome, valorHamburguer, artesanal);
 						JOptionPane.showMessageDialog(null, h1.consultaNome(), "Nome do Harburguer ", JOptionPane.DEFAULT_OPTION);
 						JOptionPane.showMessageDialog(null, h1.calculaArtesanal(artesanal), "Seu hamburguer ficou no valor de: ", JOptionPane.DEFAULT_OPTION);
-						
 						break;
 					
 					case 3:
