@@ -1,6 +1,6 @@
 package br.com.franquia;
 
-public class Acai {
+public class Acai extends PontoAcai {
 	private int tamanho;
 	private double valorAcai;
 	private boolean possuiAcrescimo;
@@ -36,21 +36,21 @@ public class Acai {
 		this.possuiAcrescimo = possuiAcrescimo;
 	}
 	
-	public Double calculaSorvete(Boolean possuiAcrescimo){
-		if (possuiAcrescimo == true) {
-			return valorAcai + 2;
-		}
-		return valorAcai;
+	public Double calculaTamanho() {
+		if (getTamanho() == 300) {
+			return getValorAcai();
+		} else if ((getTamanho() == 500)) {
+			return getValorAcai();
+		} else if ((getTamanho() == 700)) {
+			return getValorAcai();
+		} return valorAcai;
 	}
 	
-	public Double calculaTamanho(Double valorAcai) {
-		if (getTamanho() == 300) {
-			this.valorAcai = 8;
-		} else if ((getTamanho() == 500)) {
-			this.valorAcai = 10;
-		} else if ((getTamanho() == 700)) {
-			this.valorAcai = 12;
-		} return valorAcai;
+	public Double calculaSorvete(Boolean possuiAcrescimo){
+		if (possuiAcrescimo == true) {
+			return getValorAcai() + 2;
+		}
+		return getValorAcai();
 	}
 	
 	public Double consultaValor() {

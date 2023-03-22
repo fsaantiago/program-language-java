@@ -1,6 +1,7 @@
 package br.com.franquia;
 import javax.swing.JOptionPane;
 
+
 public class PontoAcai {
 
 	public static void main(String[] args) {
@@ -16,16 +17,18 @@ public class PontoAcai {
 						case 1:
 						
 							tamanho=Integer.parseInt(JOptionPane.showInputDialog("Tamanho do acai: "));
-//					 		valorAcai=Double.parseDouble(JOptionPane.showInputDialog("Valor do acai: "));
+							valorAcai=Double.parseDouble(JOptionPane.showInputDialog("Valor do acai: "));
 							possuiAcrescimo=Boolean.parseBoolean(JOptionPane.showInputDialog("Acrescimo de sorvete? "));
-							Acai a1 = new Acai(tamanho, possuiAcrescimo);
+							//int n = JOptionPane.showConfirmDialog(view.propertiesDialog,"Are you sure you want to disconnect the selected products?", "Disconnect Products", JOptionPane.YES_NO_OPTION);
+
+							Acai a1 = new Acai(tamanho, valorAcai, possuiAcrescimo);
 							JOptionPane.showMessageDialog(null, a1.calculaTamanho(), "Tamanho do acai ", JOptionPane.DEFAULT_OPTION);
 							JOptionPane.showMessageDialog(null, a1.consultaValor(), "Valor do acai ", JOptionPane.DEFAULT_OPTION);
 							break;
 						
 						case 2:
 							JOptionPane.showMessageDialog(null, "Escolha corretamente uma das opcoes. ");
-							break;
+							break;				
 								
 					} 
 		} while(opcao!=2);
