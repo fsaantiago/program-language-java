@@ -14,7 +14,7 @@ public class Main {
         int opcao = 0;
         while (opcao != 5) {
             opcao = Integer.parseInt(JOptionPane.showInputDialog("Informe os ingredientes escolhidos:\n" +
-                                                    "1-Bacon\n2-Mussarela\n3-Tomate\n4-Queijo\n5-Sair"));
+                                                    "1-Bacon\n2-Mussarela\n3-Tomate\n4-Queijo\n5-Finalizar"));
             switch (opcao) {
                 case 1:
                     ingredientes.add(new Ingrediente("Bacon"));
