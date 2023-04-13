@@ -1,6 +1,6 @@
+package br.com.cantina;
 import java.util.ArrayList;
 import java.util.List;
-package br.com.cantina;
 
 public class Pedido {
     private Cliente cliente;
