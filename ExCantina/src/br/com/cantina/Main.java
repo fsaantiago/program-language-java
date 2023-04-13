@@ -1,7 +1,7 @@
+package br.com.cantina;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
-package br.com.cantina;
 
 public class Main {
     public static void main(String[] args) {
