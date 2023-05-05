@@ -1,0 +1,17 @@
+1) Crie um arquivo manualmente que contenha 10 nomes e um outro arquivo que contenha 10 sobrenomes. Crie um programa que realize a leitura dos 10 nomes e dos 10 sobrenomes e escreva em um terceiro arquivo criado pelo sistema o nome e o sobrenome concatenados em cada linha. 
+
+1.1) Criar inicialmente o primeiro arquivo com nomes -> ArquivoNomes.txt
+
+1.2) Criar inicialmente o segundo arquivo com sobrenomes -> SobreNomes.txt
+
+1.3) Salvar estes dois arquivos no mesmo local, dentro da pasta do projeto.
+
+1.4) Realizar a leitura do primeiro arquivo e exibir no console.
+
+1.5) Realizar a leitura do segundo arquivo e exibir no console.
+
+1.6) Concatenar a informação de leitura dos dois arquivos.
+
+1.7) Criar o terceiro arquivo
+
+1.8) Escrever o resultado no terceiro
